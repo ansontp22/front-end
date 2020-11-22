@@ -1,0 +1,37 @@
+[
+    {
+        "ID": 949,
+        "IMEI": "151968",
+        "Name": "A",
+        "reports": [
+            {
+                "Device_ID": "949",
+                "ID": 86376877,
+                "Latitude": "14.48603",
+                "Location": "Dona Soledad Avenue-Russia Street, Para\u00f1aque, NCR, PH, ",
+                "Longitude": "121.02670"
+            }
+        ]
+    },
+    {
+        "ID": 1058,
+        "IMEI": "157973",
+        "Name": "Toy N432MA",
+        "reports": [
+            {
+                "Device_ID": "1058",
+                "ID": 86216016,
+                "Latitude": "-24.63932",
+                "Location": "Kulala Airstrip, Hardap, NA, ",
+                "Longitude": "15.96450"
+            },
+            {
+                "Device_ID": "1058",
+                "ID": 84413224,
+                "Latitude": "-24.61563",
+                "Location": "of Sossusvlei Wilderness Camp, Hardap, NA, ",
+                "Longitude": "15.89850"
+            }
+        ]
+    }
+]

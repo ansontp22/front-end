@@ -1,0 +1,96 @@
+
+body{
+  background-color:#f2f2f2
+}
+.parentContainer{
+  padding: 20px;
+}
+.container {
+    width:100%;
+    overflow:hidden;
+  }
+  .gridContainer{
+    background-color: #fff;
+    padding: 10px;
+  }
+  .deviceName{
+    color: #464E97;
+    font-weight: bold;
+  }
+  .reports{
+    color:#AEB3C7;
+  }
+  .display-flex{
+    display: flex;
+  }
+  .label-info{
+    color: #000;
+    font-weight: bold;
+    margin:5px 0px;
+    width:50%
+  }
+  .value{
+    color: #AEB3C7;
+     font-weight: bold;
+     margin: 5px 10px;
+  }
+  .info-container{
+    height:220px
+  }
+  
+  .container .col {
+    background:lightblue;
+    margin:10px
+  }
+  
+  /* 2 columns (600px) */
+  @media only screen and (min-width:700px) {
+    .container .col {
+      float:left;
+      width:30%;
+    }
+    .container .col-2{
+      float:left;
+      width:30%;
+    }
+    .container .col-1 {
+      float:left;
+      width:30%;
+    }
+  }
+  
+  /* 3 columns (768px) */
+  @media only screen and (min-width:700px) and (max-width: 1024px)  {
+    .container .col,.container .col-2,.container .col-1 {
+      width:33.333%;
+    }
+    .container .col-2{
+      width:20%
+    }
+    .container .col-1{
+      width:80%
+    }
+  }
+  @media only screen and (min-width: 1024px) and (max-width: 1440px)  {
+    .container .col {
+      width:22%;
+    }
+    .container .col-2{
+      width:20%
+    }
+    .container .col-1{
+      width:80%
+    }
+  }
+  /* 4 columns (992px) */
+  @media only screen and (min-width:1440px) {
+    .container .col {
+        width:22%;
+      }
+      .container .col-2{
+        width:20%
+      }
+      .container .col-1{
+        width:80%
+      }
+    }
